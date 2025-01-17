@@ -1,4 +1,4 @@
-$(function() {
+function playvideo() {
     var video = $('video')[0];
     $('button').click(function() {
         if( video.paused ) {
@@ -8,4 +8,6 @@ $(function() {
             video.pause();
         }
     });
-});
+};
+
+playvideo
